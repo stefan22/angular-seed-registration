@@ -1,0 +1,20 @@
+.page {
+	width: 600px;
+	margin: 0 auto;
+	border:1px solid #666666;
+	border-radius: 5px;
+	padding:1em;
+}
+
+fieldset {
+	width:50%;
+	border:none;
+}
+
+.textintro {
+	padding-bottom: .5em;
+}
+
+input[type="email"] {
+	margin-bottom: .7em;
+}
