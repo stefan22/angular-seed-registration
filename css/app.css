@@ -28,3 +28,16 @@
   content: "";
   padding: 0;
 }
+
+
+li a {
+  text-decoration: none;
+  background: #ababad;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+li a:hover {
+  background-color:#bbbbff;
+}

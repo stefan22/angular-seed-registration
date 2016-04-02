@@ -9,6 +9,9 @@ angular.module('myApp.login', ['ngRoute'])
   });
 }])
 
-.controller('LoginCtrl', [function() {
+.controller('LoginCtrl', ['$scope', function($scope) {
+
+	$scope.message = "Welcome to my App";
+
 
 }]);

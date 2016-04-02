@@ -1,1 +1,23 @@
-<p>This is the partial for view 1.</p>
+<section class="card login">
+	<form name="myform" novalidate>
+
+		<div class="textintro">
+			<h1>Hi there!</h1>
+			<p>Log-in to access site</p>
+			{{message}}
+		</div>
+
+		<fieldset>
+			<input type="email" name="email" placeholder="enter your email"
+			 ng-model="user.email" ng-required="true">
+
+			<input type="password" name="password" placeholder="enter your password">
+		</fieldset>
+
+		<button type="submit" class="btn">Login
+		</button>
+
+		<p>or <a href="#/register">register</a></p>
+
+	</form>
+</section>
